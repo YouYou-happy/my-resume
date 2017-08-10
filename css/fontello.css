@@ -1,0 +1,50 @@
+
+@charset "UTF-8"; 
+@font-face {
+  font-family: 'fontello';
+  src: url('../font1/fontello.eot?');
+  src: url('../font1/fontello.eot?#iefix') format('embedded-opentype'),
+       url('../font1/fontello.woff2?') format('woff2'),
+       url('../font1/fontello.woff?') format('woff'),
+       url('../font1/fontello.ttf?') format('truetype'),
+       url('../font1/fontello.svg?#fontello') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+ 	font-family:"fontello";
+	font-style:normal;
+	font-weight:200;
+	speak:none;
+	display:inline-block;
+	text-decoration:inherit;
+	width:1em;
+	margin-right:.2em;
+	text-align:center;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1em;
+	margin-left:.2em;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+.icon-wechat:before{content:'\f1d7';}
+.icon-bookmark:before{content:'\e819';}
+.icon-heart:before{content:'\e803';}
+.icon-mail-alt:before{content:'\f0e0';}
+.icon-link:before{content:'\e806';}
+.icon-phone:before{content:'\e80e';}
+.icon-github-circled:before { content: '\f09b'; }
+.icon-blog:before { content: '\f09e' }
+.icon-hat:before { content: '\f19d' }
+.icon-tool:before { content: '\e81e' }
+.icon-cloud:before {content: '\e81d'}
+.icon-briefcase:before {content: '\e81c'}
+.icon-qq:before {content: '\f1d6'}
+.icon-awards:before {content: '\e817'}
+.icon-thread:before {content: '\e811'}
+.icon-web:before {content: '\f12e'}
+.icon-book:before {content: '\e81b'}
+.icon-guide:before {content: '\f135'}
+
